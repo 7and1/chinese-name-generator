@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree /Volumes/SSD/dev/new/chinese-name/ -L 3)",
+      "WebSearch",
+      "Bash(npm run build)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

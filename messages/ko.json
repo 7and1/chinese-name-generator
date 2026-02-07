@@ -1,0 +1,501 @@
+{
+  "appName": "중국어 이름 생성기",
+  "surnames": "성씨",
+  "elements": "오행",
+  "guide": "네이밍 가이드",
+  "common": {
+    "appName": "중국어 이름 생성기",
+    "tagline": "주역, 오행, 고전 시에 기반한 지능형 네이밍 시스템",
+    "generate": "이름 생성",
+    "analyze": "이름 분석",
+    "explore": "문화 탐색",
+    "surname": "성",
+    "givenName": "이름",
+    "gender": "성별",
+    "male": "남성",
+    "female": "여성",
+    "neutral": "중성",
+    "birthDate": "생년월일",
+    "birthTime": "출생 시간",
+    "birthHour": "출생 시간",
+    "score": "점수",
+    "results": "결과",
+    "loading": "로딩 중...",
+    "error": "오류",
+    "success": "성공",
+    "required": "필수",
+    "optional": "선택 사항",
+    "favorite": "즐겨찾기",
+    "favorited": "즐겨찾기에 추가됨",
+    "share": "공유",
+    "export": "내보내기",
+    "clear": "지우기",
+    "home": "홈",
+    "blog": "블로그",
+    "faq": "자주 묻는 질문",
+    "about": "소개",
+    "privacy": "개인정보",
+    "terms": "이용약관",
+    "backToHome": "홈으로",
+    "readMore": "더 읽기",
+    "relatedArticles": "관련 글",
+    "categories": "카테고리",
+    "startNaming": "네이밍 시작"
+  },
+  "home": {
+    "hero": {
+      "title": "전통문화와 최신 기술의 만남",
+      "subtitle": "팔자, 오격, 운율 분석 기반 전문 중국어 네이밍 플랫폼",
+      "cta": "네이밍 시작",
+      "features": [
+        "57개 이상의 고품질 데이터 소스",
+        "71억 자의 고전 문헌",
+        "전문 주역 알고리즘",
+        "AI 해설"
+      ]
+    },
+    "features": {
+      "bazi": {
+        "title": "팔자 분석",
+        "description": "생년월일시를 기반으로 사주와 오행 균형 계산"
+      },
+      "wuge": {
+        "title": "오격 수리",
+        "description": "오격 분석과 81 수리 길흉 판단"
+      },
+      "poetry": {
+        "title": "고전 시가",
+        "description": "시경, 초사, 당시, 송사에서 문화적 깊이가 있는 이름 제안"
+      },
+      "phonetics": {
+        "title": "운율 조화",
+        "description": "성조 패턴 분석과 부적절한 동음이의어 탐지로 유창한 발음 구현"
+      }
+    },
+    "sectionTitle": "핵심 기능",
+    "stats": {
+      "dataSources": "데이터 소스",
+      "classicTexts": "고전 문자",
+      "openSource": "오픈소스"
+    },
+    "cta": {
+      "title": "스마트 네이밍 도구로 아기에게 완벽한 이름을",
+      "subtitle": "전통문화와 AI 알고리즘을 결합한 길한 이름 추천"
+    }
+  },
+  "blog": {
+    "title": "네이밍 블로그",
+    "subtitle": "중국어 이름 짓기의 예술과 과학을 탐구하고 아기에게 완벽한 이름을",
+    "featured": "추천 글",
+    "allPosts": "모든 글",
+    "categories": {
+      "namingTips": "네이밍 팁",
+      "fiveElements": "오행",
+      "surnameCulture": "성씨 문화",
+      "poetryNaming": "시사 네이밍",
+      "wuge": "오격 수리",
+      "phonetics": "운율",
+      "characterSelection": "한자 선택",
+      "baziNaming": "팔자 네이밍",
+      "namingTrends": "네이밍 트렌드"
+    },
+    "articles": {
+      "howToChoose": {
+        "title": "좋은 중국어 이름을 선택하는 방법? 완벽 가이드",
+        "description": "팔자 분석, 오행, 오격 수리, 운율 조화를 포함한 중국어 네이밍의 포괄적인 가이드.",
+        "category": "네이밍 팁"
+      },
+      "fiveElements": {
+        "title": "오행 네이밍: 금목수화토의 비밀",
+        "description": "오행 관계를 이해하고 아기의 팔자를 기반으로 조화로운 한자를 선택하세요.",
+        "category": "오행"
+      },
+      "surnameCulture": {
+        "title": "중국 성씨 문화: 백가성 뒤의 이야기",
+        "description": "중국 성씨의 기원, 분포, 문화적 의미를 탐구.",
+        "category": "성씨 문화"
+      },
+      "poetryNames": {
+        "title": "시사 영감 이름: 고전 중국 시가에서 영감을",
+        "description": "시경, 초사, 당시, 송사에서 네이밍 영감을 발견하세요.",
+        "category": "시사 네이밍"
+      },
+      "wugeExplained": {
+        "title": "오격 수리 이해하기: 천격, 인격, 지격, 외격, 총격",
+        "description": "계산 방법과 81 수리 의미를 포함한 오격 수리의 심층 해설.",
+        "category": "오격 수리"
+      },
+      "boyVsGirl": {
+        "title": "중국 문화에서 남자아이와 여자아이 네이밍의 차이",
+        "description": "한자 선택에서 의미 표현까지, 남자아이와 여자아이 네이밍의 다양한 고려사항.",
+        "category": "네이밍 팁"
+      },
+      "avoidHomophones": {
+        "title": "네이밍 함정: 부정적인 동음이의어 피하는 방법",
+        "description": "불쾌하거나 부정적인 연상을 피하기 위해 네이밍 시 항상 동음이의어를 확인하세요.",
+        "category": "운율"
+      },
+      "meaningfulChars": {
+        "title": "네이밍 한자: 길한 의미를 가진 아름다운 한자",
+        "description": "네이밍에 적합한 길한 의미를 가진 100개의 아름다운 한자 엄선 리스트.",
+        "category": "한자 선택"
+      },
+      "baziCalculator": {
+        "title": "팔자 계산기: 아기의 오행을 분석하는 방법",
+        "description": "팔자를 계산하고 유리한 요소와 불리한 요소를 판단하는 단계별 가이드.",
+        "category": "팔자 네이밍"
+      },
+      "modernVsTraditional": {
+        "title": "전통 네이밍 vs 현대 네이밍: 어떤 것이 아기에게 적합한가?",
+        "description": "전통 네이밍 방법과 현대 트렌드를 비교하여 최선의 선택을 돕습니다.",
+        "category": "네이밍 트렌드"
+      }
+    }
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "subtitle": "생성기와 분석 기능에 대한 일반적인 질문",
+    "questions": [
+      {
+        "question": "이것이 법적/공식 네이밍 서비스인가요?",
+        "answer": "아닙니다. 이것은 영감과 분석을 위한 정보 도구입니다. 반드시 네이밍 규칙과 지역 요구사항을 확인하세요."
+      },
+      {
+        "question": "팔자/오격 분석의 정확도는 어느 정도인가요?",
+        "answer": "투명한 알고리즘 해석을 제공합니다. 전통 시스템은 학파와 전문가에 따라 다르므로 결과를 참고로만 처리하세요."
+      },
+      {
+        "question": "제출한 이름을 저장하나요?",
+        "answer": "기본적으로 아닙니다. 배포에서 데이터베이스 지속성을 활성화하면 변경될 수 있습니다——호스팅된 사이트의 개인정보 처리방침 페이지를 참조하세요."
+      },
+      {
+        "question": "이 서비스는 무료인가요?",
+        "answer": "네, 이 서비스는 완전히 오픈소스이며 무료입니다. 모든 기능을 자유롭게 사용할 수 있습니다."
+      },
+      {
+        "question": "아기에게 적합한 오행을 선택하려면 어떻게 해야 하나요?",
+        "answer": "아기의 생년월일시를 기반으로 팔자를 계산하고 각 요소의 강약을 분석하세요. 누락되거나 약한 요소는 보강해야 하며, 과도한 요소는 균형을 맞춰야 합니다."
+      },
+      {
+        "question": "생성된 이름을 바로 사용할 수 있나요?",
+        "answer": "생성된 이름은 참고용입니다. 최종 결정 시 가족 전통, 개인적 선호도, 전문가 조언을 결합하는 것이 좋습니다."
+      },
+      {
+        "question": "여러 언어를 지원하나요?",
+        "answer": "현재 간체 중국어, 영어, 일본어, 한국어 인터페이스를 지원합니다."
+      }
+    ]
+  },
+  "about": {
+    "title": "소개",
+    "subtitle": "중국어 이름 생성기에 대해 알아보기",
+    "whatWeDo": {
+      "title": "우리가 하는 일",
+      "description": "이름 생성, 분석, 엄선된 문화 참고 자료를 제공하여 의사결정을 지원합니다."
+    },
+    "whatWeDontDo": {
+      "title": "우리가 하지 않는 일",
+      "description": "우리는 전문적인 인간 상담의 대체가 아니며 현실 세계의 결과를 보장하지 않습니다."
+    },
+    "features": {
+      "title": "핵심 기능",
+      "bazi": "전통 팔자 이론에 기반한 오행 균형 분석",
+      "wuge": "오격 수리 길흉 분석",
+      "poetry": "고전 시사에서 문화적으로 풍부한 이름 추출",
+      "phonetics": "부정적인 동음이의어를 피하기 위한 운율 조화 감지",
+      "meanings": "상세한 한자 의미와 오행 속성"
+    },
+    "technology": {
+      "title": "기술 하이라이트",
+      "opensource": "완전히 오픈소스이며 투명하고 감사 가능한 코드",
+      "data": "57개 이상의 데이터 소스, 71억 자의 고전 문헌",
+      "ai": "AI 해석과 전통 알고리즘의 결합"
+    },
+    "mission": {
+      "title": "우리의 미션",
+      "description": "중국 전통문화와 최신 기술을 결합하여 전문적이고 편리한 네이밍 서비스를 제공하고, 모든 이름에 아름다운 의미를 담습니다."
+    }
+  },
+  "explore": {
+    "title": "문화 탐색",
+    "subtitle": "시사, 성어, 한자 정보를 찾아보고 네이밍 영감 얻기",
+    "poetry": {
+      "title": "시사",
+      "description": "네이밍에 적합한 선정된 시구"
+    },
+    "classics": {
+      "title": "고전",
+      "description": "시경, 초사 및 기타 고전 텍스트"
+    },
+    "idioms": {
+      "title": "성어",
+      "description": "네이밍 아이디어를 위한 긍정적인 성어"
+    },
+    "characters": {
+      "title": "한자",
+      "description": "획수, 부수, 오행, 의미"
+    },
+    "etymology": {
+      "title": "어원",
+      "description": "한자의 기원과 진화 탐구"
+    },
+    "ui": {
+      "search": "검색",
+      "lookup": "조회",
+      "noResults": "결과가 없습니다.",
+      "suitableChars": "추천 한자",
+      "allCategories": "전체 카테고리",
+      "origin": "출처",
+      "example": "예문"
+    },
+    "poetryPage": {
+      "searchPlaceholder": "제목 / 구절 / 키워드 검색",
+      "generateCta": "시에서 영감 받은 이름 생성"
+    },
+    "idiomsPage": {
+      "searchPlaceholder": "성어 / 병음 / 뜻 검색",
+      "generateCta": "성어에서 영감 받은 이름 생성"
+    },
+    "classicsPage": {
+      "subtitle": "『시경』과 『초사』에서 작명 영감을 찾아보세요."
+    },
+    "etymologyPage": {
+      "placeholder": "한자 1글자 입력(예: 明)",
+      "emptyState": "한자를 입력해 주세요.",
+      "notFound": "현재 데이터에서 해당 한자를 찾지 못했습니다.",
+      "meaning": "의미",
+      "fiveElement": "五行",
+      "radical": "부수",
+      "strokes": "획수"
+    }
+  },
+  "privacy": {
+    "title": "개인정보 처리방침",
+    "subtitle": "정보 처리 방법",
+    "dataProcessing": {
+      "title": "데이터 처리",
+      "description": "앱은 입력(성, 이름, 선택적 생년월일/시간)을 처리하여 결과를 계산합니다. 기본적으로 요청이 저장되지 않습니다."
+    },
+    "logs": {
+      "title": "로그 기록",
+      "description": "호스팅 제공업체는 보안 및 운영 목적으로 표준 액세스 로그를 유지할 수 있습니다."
+    },
+    "cookies": {
+      "title": "쿠키 및 유사 기술",
+      "description": "웹사이트가 정상적으로 작동하는 데 필요한 쿠키를 사용합니다. 개인 식별을 추적하기 위해 쿠키를 사용하지 않습니다."
+    },
+    "thirdParty": {
+      "title": "제3자 서비스",
+      "description": "웹사이트에 제3자 웹사이트에 대한 링크가 포함될 수 있습니다. 이러한 사이트의 개인정보 처리방침에 대해 책임지지 않습니다."
+    },
+    "changes": {
+      "title": "정책 변경",
+      "description": "이 개인정보 처리방침을 수시로 업데이트할 수 있습니다. 중요한 변경이 있을 경우 웹사이트를 통해 알려드립니다."
+    },
+    "contact": {
+      "title": "문의하기",
+      "description": "개인정보 관련 질문은 GitHub Issues를 통해 문의해 주세요."
+    }
+  },
+  "terms": {
+    "title": "이용약관",
+    "subtitle": "이 서비스 사용에 대한 약관",
+    "noGuarantees": {
+      "title": "보증 부재",
+      "description": "결과는 참조 및 영감 목적으로만 제공됩니다. 앱을 기반으로 한 결정에 대한 책임은 사용자에게 있습니다."
+    },
+    "acceptableUse": {
+      "title": "수락 가능한 사용",
+      "description": "서비스에 과부하를 걸거나 불법적인 목적으로 사용하지 마세요."
+    },
+    "intellectualProperty": {
+      "title": "지식재산권",
+      "description": "이 웹사이트의 모든 콘텐츠(텍스트, 이미지, 코드 포함)는 지식재산권법으로 보호됩니다. 허가 없이 복제, 수정, 배포하는 것은 금지됩니다."
+    },
+    "limitationOfLiability": {
+      "title": "책임 제한",
+      "description": "어떤 경우에도 서비스 사용 또는 사용 불가로 인한 직접, 간접, 부수, 특수 또는 결과적 손해에 대해 책임지지 않습니다."
+    },
+    "governingLaw": {
+      "title": "관할 법률",
+      "description": "이 약관은 해당 법률 및 규정에 따릅니다. 분쟁은 우호적인 협의를 통해 해결해야 합니다."
+    },
+    "changes": {
+      "title": "약관 변경",
+      "description": "언제든지 이 약관을 수정할 권리를 보유합니다. 서비스를 계속 사용하면 수정된 약관에 동의하는 것으로 간주됩니다."
+    }
+  },
+  "generate": {
+    "title": "중국어 이름 생성",
+    "subtitle": "전통 문화, 팔자, 운율을 기반으로 길한 이름 생성",
+    "options": "이름 매개변수",
+    "description": "기본 정보를 입력하여 생성 시작",
+    "required": "필수",
+    "optional": "선택 사항",
+    "preferences": "환경 설정",
+    "style": "스타일",
+    "styles": {
+      "classic": "클래식",
+      "modern": "모던",
+      "poetic": "시적",
+      "elegant": "우아"
+    },
+    "source": "영감 소스",
+    "sources": {
+      "poetry": "시가",
+      "classics": "고전",
+      "idioms": "성어",
+      "any": "상관 없음"
+    },
+    "characterCount": "이름 길이",
+    "characterCounts": {
+      "one": "1글자",
+      "two": "2글자"
+    },
+    "maxResults": "결과 수",
+    "preferredElements": "선호 오행",
+    "avoidElements": "피할 오행",
+    "startGeneration": "생성 시작",
+    "generating": "생성 중...",
+    "results": "결과",
+    "resultsCount": "{{count}}개의 이름 생성",
+    "noResults": "왼쪽 정보를 입력하고 '생성 시작'을 클릭하세요.",
+    "fiveElements": {
+      "metal": "금",
+      "wood": "목",
+      "water": "수",
+      "fire": "화",
+      "earth": "토"
+    },
+    "form": {
+      "surnameLabel": "성",
+      "surnamePlaceholder": "예: 리",
+      "genderLabel": "성별",
+      "birthDateLabel": "생년월일(선택)",
+      "birthDateHint": "팔자 분석에 사용",
+      "birthHourLabel": "출생 시간(선택)",
+      "birthHourUnknown": "알 수 없음",
+      "birthHourRange": "{{start}}:00 - {{end}}:00"
+    },
+    "scores": {
+      "bazi": "팔자",
+      "wuge": "오격",
+      "phonetic": "운율",
+      "meaning": "의미",
+      "overall": "종합"
+    },
+    "source": {
+      "poetrySource": "시가 출처",
+      "idiomSource": "성어 출처"
+    }
+  },
+  "analyze": {
+    "title": "이름 분석",
+    "subtitle": "팔자, 오격, 운율, 의미를 기반으로 한 포괄적인 이름 분석",
+    "form": {
+      "title": "이름 입력",
+      "description": "전체 이름(2-4글자)을 입력하여 분석",
+      "fullNameLabel": "전체 이름",
+      "fullNamePlaceholder": "예: 김철수",
+      "fullNameHint": "필수, 2-4글자 한자",
+      "birthDateHint": "선택사항: 팔자 분석에 사용",
+      "birthDateRequired": "먼저 생년월일을 입력하세요",
+      "birthHourUnknown": "알 수 없음",
+      "birthHourRange": "{{start}}:00 - {{end}}:00",
+      "analyzing": "분석 중...",
+      "submit": "분석 시작",
+      "errors": {
+        "nameTooShort": "이름은 최소 2글자 이상이어야 합니다",
+        "nameTooLong": "이름은 최대 4글자까지 가능합니다",
+        "nameNotChinese": "중국어 한자만 입력해 주세요"
+      }
+    },
+    "results": {
+      "enterName": "분석을 시작하려면 이름을 입력하세요",
+      "baziScore": "팔자 점수",
+      "wugeScore": "오격 점수",
+      "phoneticScore": "운율 점수",
+      "meaningScore": "의미 점수",
+      "favorableElements": "희용",
+      "threeGrids": "천/인/지",
+      "tonePattern": "성조",
+      "basedOnMeaning": "한자 의미 품질 기반",
+      "characterDetails": "한자 상세정보",
+      "fiveElement": "오행",
+      "radical": "부수",
+      "strokes": "획수",
+      "kangxiStrokes": "강희 획수",
+      "meaning": "의미",
+      "baziAnalysis": "팔자 분석",
+      "baziDescription": "생년월일 기반 점성술적 분석",
+      "fourPillars": "사주팔자",
+      "yearPillar": "년주",
+      "monthPillar": "월주",
+      "dayPillar": "일주",
+      "hourPillar": "시주",
+      "dayMaster": "일주",
+      "fiveElementsDistribution": "오행 분포",
+      "unfavorableElements": "기용"
+    },
+    "inputName": "전체 이름 입력",
+    "overallScore": "종합 점수",
+    "breakdown": "상세 분석",
+    "bazi": "팔자 적합도",
+    "wuge": "오격 수리",
+    "phonetics": "운율 조화",
+    "meaning": "한자 의미"
+  },
+  "favorites": {
+    "title": "즐겨찾기",
+    "description": "즐겨찾기한 이름이 여기에 표시됩니다",
+    "empty": "즐겨찾기가 없습니다",
+    "emptyHint": "이름을 생성하고 하트 아이콘을 클릭하여 즐겨찾기에 저장",
+    "count": "{{count}}개의 이름",
+    "export": "내보내기",
+    "clearAll": "모두 지우기",
+    "clearConfirm": "모든 즐겨찾기를 지우시겠습니까?"
+  },
+  "share": {
+    "title": "이름 공유",
+    "description": "{{name}}를 다른 사람과 공유",
+    "shareNative": "공유...",
+    "copyLink": "링크 복사",
+    "copyInfo": "이름 정보 복사",
+    "downloadImage": "이미지 다운로드",
+    "showQRCode": "QR코드 표시",
+    "qrCodeHint": "스캔하여 위챗에서 공유",
+    "copied": "복사됨",
+    "generating": "생성 중...",
+    "downloaded": "다운로드됨"
+  },
+  "seo": {
+    "home": {
+      "title": "중국어 이름 생성기 - 주역, 오행, 시사에 기반한 지능형 네이밍 시스템",
+      "description": "팔자 분석, 오격 수리, 운율학, 고전 시사를 결합한 전문 중국어 네이밍 플랫폼. 아기를 위한 길한 이름 생성. 다양한 스타일 설정을 지원하는 무료 온라인 도구."
+    },
+    "generate": {
+      "title": "중국어 이름 생성 - 스마트 네이밍 도구",
+      "description": "팔자 오행, 오격 수리, 고전 시사에 기반한 스마트 네이밍 도구. 성과 생년월일을 입력하여 길한 이름을 생성하세요."
+    },
+    "analyze": {
+      "title": "이름 분석 - 팔자 오격 운율 분석",
+      "description": "팔자 적합도, 오격 수리, 운율 조화, 한자 의미 등 여러 차원에서 이름을 평가하는 전문 중국어 이름 분석 도구."
+    },
+    "explore": {
+      "title": "문화 탐색 - 시사 성어 한자 네이밍 영감",
+      "description": "시경, 초사, 당시, 송사, 성어, 한자 어원을 탐구하여 풍부한 네이밍 영감과 문화적 깊이를 얻으세요."
+    },
+    "blog": {
+      "title": "네이밍 블로그 - 중국어 네이밍 팁과 전통 문화",
+      "description": "중국어 네이밍 팁, 팔자 오행 지식, 성씨 문화, 시사 기반 글을 공유하여 아기에게 길한 이름을 선택하도록 돕습니다."
+    },
+    "faq": {
+      "title": "자주 묻는 질문 - 중국어 이름 생성기",
+      "description": "중국어 네이밍, 팔자 분석, 오격 수리에 대한 자주 묻는 질문과 답변."
+    },
+    "about": {
+      "title": "소개 - 중국어 이름 생성기",
+      "description": "우리의 미션과 서비스에 대해 알아보세요——전통 문화와 최신 기술을 결합한 네이밍 플랫폼."
+    }
+  }
+}

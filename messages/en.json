@@ -1,0 +1,540 @@
+{
+  "appName": "Chinese Name Generator",
+  "surnames": "Surnames",
+  "elements": "Five Elements",
+  "guide": "Naming Guide",
+  "common": {
+    "appName": "Chinese Name Generator",
+    "tagline": "Intelligent naming system based on I Ching, Five Elements, and classical poetry",
+    "generate": "Generate Names",
+    "analyze": "Analyze Name",
+    "explore": "Explore Culture",
+    "surname": "Surname",
+    "givenName": "Given Name",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "neutral": "Neutral",
+    "birthDate": "Birth Date",
+    "birthTime": "Birth Time",
+    "birthHour": "Birth Hour",
+    "score": "Score",
+    "results": "Results",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "required": "Required",
+    "optional": "Optional",
+    "favorite": "Favorite",
+    "favorited": "Favorited",
+    "share": "Share",
+    "export": "Export",
+    "clear": "Clear",
+    "home": "Home",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "backToHome": "Back to Home",
+    "readMore": "Read More",
+    "relatedArticles": "Related Articles",
+    "categories": "Categories",
+    "startNaming": "Start Naming"
+  },
+  "home": {
+    "hero": {
+      "title": "Traditional Culture Meets Modern Technology",
+      "subtitle": "Professional Chinese naming platform powered by BaZi, Wuge, and phonetic analysis",
+      "cta": "Start Naming",
+      "features": [
+        "57+ Quality Data Sources",
+        "7.1B Classic Literature",
+        "Professional I Ching",
+        "AI Interpretation"
+      ]
+    },
+    "features": {
+      "bazi": {
+        "title": "BaZi Analysis",
+        "description": "Calculate Four Pillars and Five Elements balance based on birth date/time"
+      },
+      "wuge": {
+        "title": "Wuge Numerology",
+        "description": "Five Grids analysis with 81 numerology interpretations"
+      },
+      "poetry": {
+        "title": "Classical Poetry",
+        "description": "Names inspired by Book of Songs, Chu Ci, Tang and Song poetry"
+      },
+      "phonetics": {
+        "title": "Phonetic Harmony",
+        "description": "Tone pattern analysis and homophone detection for smooth pronunciation"
+      }
+    },
+    "sectionTitle": "Core Features",
+    "stats": {
+      "dataSources": "Data Sources",
+      "classicTexts": "Classic Characters",
+      "openSource": "Open Source"
+    },
+    "cta": {
+      "title": "Use our smart naming tool to generate perfect names for your baby",
+      "subtitle": "Combining traditional culture with AI algorithms for auspicious name recommendations"
+    }
+  },
+  "blog": {
+    "title": "Naming Blog",
+    "subtitle": "Explore the art and science of Chinese naming for the perfect baby name",
+    "featured": "Featured",
+    "allPosts": "All Posts",
+    "categories": {
+      "namingTips": "Naming Tips",
+      "fiveElements": "Five Elements",
+      "surnameCulture": "Surname Culture",
+      "poetryNaming": "Poetry Naming",
+      "wuge": "Wuge Numerology",
+      "phonetics": "Phonetics",
+      "characterSelection": "Character Selection",
+      "baziNaming": "BaZi Naming",
+      "namingTrends": "Naming Trends"
+    },
+    "articles": {
+      "howToChoose": {
+        "title": "How to Choose a Good Chinese Baby Name? A Complete Guide",
+        "description": "A comprehensive guide to Chinese naming covering BaZi analysis, Five Elements, Wuge numerology, and phonetic harmony.",
+        "category": "Naming Tips"
+      },
+      "fiveElements": {
+        "title": "Five Elements Naming: The Secrets of Metal, Wood, Water, Fire, Earth",
+        "description": "Understanding Five Elements relationships and selecting characters based on your baby's BaZi for harmony.",
+        "category": "Five Elements"
+      },
+      "surnameCulture": {
+        "title": "Chinese Surname Culture: Stories Behind the Hundred Family Surnames",
+        "description": "Explore the origins, distribution, and cultural significance of Chinese surnames.",
+        "category": "Surname Culture"
+      },
+      "poetryNames": {
+        "title": "Poetry-Inspired Names: Finding Inspiration from Classic Chinese Poetry",
+        "description": "Discover naming inspiration from the Book of Songs, Chu Ci, Tang Poetry, and Song Lyrics.",
+        "category": "Poetry Naming"
+      },
+      "wugeExplained": {
+        "title": "Understanding Wuge Numerology: Heaven, Human, Earth, Outer, and Total Grids",
+        "description": "An in-depth look at Wuge numerology including calculation methods and 81 numerology meanings.",
+        "category": "Wuge Numerology"
+      },
+      "boyVsGirl": {
+        "title": "Differences Between Naming Boys and Girls in Chinese Culture",
+        "description": "Different considerations for naming boys and girls, from character selection to meaning expression.",
+        "category": "Naming Tips"
+      },
+      "avoidHomophones": {
+        "title": "Naming Pitfalls: How to Avoid Negative Homophones",
+        "description": "Always check homophones when naming to avoid awkward or negative associations.",
+        "category": "Phonetics"
+      },
+      "meaningfulChars": {
+        "title": "Naming Characters: Beautiful Characters with Auspicious Meanings",
+        "description": "A curated list of 100 beautiful characters with auspicious meanings for naming.",
+        "category": "Character Selection"
+      },
+      "baziCalculator": {
+        "title": "BaZi Calculator: How to Analyze Your Baby's Five Elements",
+        "description": "Step-by-step guide to calculating BaZi and determining favorable and unfavorable elements.",
+        "category": "BaZi Naming"
+      },
+      "modernVsTraditional": {
+        "title": "Traditional vs Modern Naming: Which Approach Suits Your Baby?",
+        "description": "Comparing traditional naming methods with modern trends to help you make the best choice.",
+        "category": "Naming Trends"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about the generator and analysis features",
+    "questions": [
+      {
+        "question": "Is this a legal/official naming service?",
+        "answer": "No. This is an informational tool for inspiration and analysis. Always verify naming rules and local requirements."
+      },
+      {
+        "question": "How accurate is BaZi/Wuge analysis?",
+        "answer": "We provide a transparent, algorithmic interpretation. Traditional systems vary by school and practitioner, so treat results as reference."
+      },
+      {
+        "question": "Do you store the names I submit?",
+        "answer": "By default, no. If you enable database persistence in your deployment, this may change—see the Privacy page in your hosted site."
+      },
+      {
+        "question": "Is this service free?",
+        "answer": "Yes, this service is completely open source and free. You can use all features freely."
+      },
+      {
+        "question": "How do I choose the right Five Elements for my baby?",
+        "answer": "Calculate the BaZi based on your baby's birth date and time, analyze the strength of each element. Missing or weak elements need strengthening, while excessive elements need balancing."
+      },
+      {
+        "question": "Can I use the generated names directly?",
+        "answer": "Generated names are for reference only. We recommend combining family traditions, personal preferences, and professional advice for your final decision."
+      },
+      {
+        "question": "Do you support multiple languages?",
+        "answer": "Currently we support Simplified Chinese, English, Japanese, and Korean interfaces."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Learn about Chinese Name Generator",
+    "whatWeDo": {
+      "title": "What We Do",
+      "description": "Provide name generation, analysis, and curated cultural references to support your decision-making."
+    },
+    "whatWeDontDo": {
+      "title": "What We Don't Do",
+      "description": "We are not a substitute for professional, human consultation and we do not guarantee real-world outcomes."
+    },
+    "features": {
+      "title": "Core Features",
+      "bazi": "Five Elements balance analysis based on traditional BaZi theory",
+      "wuge": "Wuge numerology auspiciousness analysis",
+      "poetry": "Extract culturally rich names from classical poetry",
+      "phonetics": "Phonetic harmony detection to avoid negative homophones",
+      "meanings": "Detailed character meanings and Five Elements attributes"
+    },
+    "technology": {
+      "title": "Technology Highlights",
+      "opensource": "Fully open source with transparent, auditable code",
+      "data": "57+ data sources, 7.1 billion characters of classic literature",
+      "ai": "Combining AI interpretation with traditional algorithms"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Combining traditional Chinese culture with modern technology to provide professional, convenient naming services, ensuring every name carries beautiful meaning."
+    }
+  },
+  "explore": {
+    "title": "Cultural Exploration",
+    "subtitle": "Browse poetry, idioms, and character information for naming inspiration",
+    "poetry": {
+      "title": "Poetry",
+      "description": "Selected verses suitable for naming"
+    },
+    "classics": {
+      "title": "Classics",
+      "description": "Book of Songs, Chu Ci, and other classic texts"
+    },
+    "idioms": {
+      "title": "Idioms",
+      "description": "Positive idioms for naming ideas"
+    },
+    "characters": {
+      "title": "Characters",
+      "description": "Strokes, radicals, elements, meanings"
+    },
+    "etymology": {
+      "title": "Etymology",
+      "description": "Explore the origins and evolution of characters"
+    },
+    "ui": {
+      "search": "Search",
+      "lookup": "Lookup",
+      "noResults": "No results.",
+      "suitableChars": "Recommended characters",
+      "allCategories": "All categories",
+      "origin": "Origin",
+      "example": "Example"
+    },
+    "poetryPage": {
+      "searchPlaceholder": "Search title / verse / keyword",
+      "generateCta": "Generate names inspired by poetry"
+    },
+    "idiomsPage": {
+      "searchPlaceholder": "Search idiom / pinyin / meaning",
+      "generateCta": "Generate names inspired by idioms"
+    },
+    "classicsPage": {
+      "subtitle": "Book of Songs (诗经) and Songs of Chu (楚辞) for naming inspiration."
+    },
+    "etymologyPage": {
+      "placeholder": "Enter a Han character (e.g., 明)",
+      "emptyState": "Enter a character to start.",
+      "notFound": "Character not found in current dataset.",
+      "meaning": "Meaning",
+      "fiveElement": "Five Element",
+      "radical": "Radical",
+      "strokes": "Strokes"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we handle your information",
+    "dataProcessing": {
+      "title": "Data Processing",
+      "description": "The app processes input (surname, name, optional birth date/hour) to compute results. By default, requests are not persisted."
+    },
+    "logs": {
+      "title": "Logging",
+      "description": "Your hosting provider may keep standard access logs for security and operational purposes."
+    },
+    "cookies": {
+      "title": "Cookies and Similar Technologies",
+      "description": "We use necessary cookies to ensure the website functions properly. We do not use cookies to track your personal identity."
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "description": "Our website may contain links to third-party websites. We are not responsible for the privacy practices of these sites."
+    },
+    "changes": {
+      "title": "Policy Changes",
+      "description": "We may update this privacy policy from time to time. We will notify you of any significant changes through the website."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "For any privacy-related questions, please contact us via GitHub Issues."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Terms and conditions for using this service",
+    "noGuarantees": {
+      "title": "No Guarantees",
+      "description": "Results are provided for reference and inspiration only. You are responsible for any decisions made based on the app."
+    },
+    "acceptableUse": {
+      "title": "Acceptable Use",
+      "description": "Do not attempt to overload the service or use it for illegal purposes."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "description": "All content on this website, including text, images, and code, is protected by intellectual property laws. Unauthorized copying, modification, or distribution is prohibited."
+    },
+    "limitationOfLiability": {
+      "title": "Limitation of Liability",
+      "description": "In no event shall we be liable for any direct, indirect, incidental, special, or consequential damages arising from the use or inability to use this service."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "description": "These terms are governed by applicable laws and regulations. Disputes should be resolved through friendly consultation."
+    },
+    "changes": {
+      "title": "Terms Changes",
+      "description": "We reserve the right to modify these terms at any time. Continued use of the service constitutes acceptance of the modified terms."
+    }
+  },
+  "generate": {
+    "title": "Generate Chinese Names",
+    "subtitle": "Generate auspicious names based on traditional culture, BaZi, and phonetics",
+    "options": "Name Parameters",
+    "description": "Fill in basic information to start generating",
+    "required": "Required",
+    "optional": "Optional",
+    "preferences": "Preferences",
+    "style": "Style",
+    "styles": {
+      "classic": "Classic",
+      "modern": "Modern",
+      "poetic": "Poetic",
+      "elegant": "Elegant"
+    },
+    "source": "Inspiration Source",
+    "sources": {
+      "poetry": "Poetry",
+      "classics": "Classics",
+      "idioms": "Idioms",
+      "any": "Any"
+    },
+    "characterCount": "Name Length",
+    "characterCounts": {
+      "one": "1 Character",
+      "two": "2 Characters"
+    },
+    "maxResults": "Result Count",
+    "preferredElements": "Preferred Elements",
+    "avoidElements": "Avoid Elements",
+    "startGeneration": "Start Generating",
+    "generating": "Generating...",
+    "results": "Results",
+    "resultsCount": "Generated {{count}} names",
+    "noResults": "Fill in the information on the left and click \"Start Generating\".",
+    "fiveElements": {
+      "metal": "Metal",
+      "wood": "Wood",
+      "water": "Water",
+      "fire": "Fire",
+      "earth": "Earth"
+    },
+    "form": {
+      "surnameLabel": "Surname",
+      "surnamePlaceholder": "e.g., Li",
+      "genderLabel": "Gender",
+      "birthDateLabel": "Birth Date (Optional)",
+      "birthDateHint": "Used for BaZi analysis",
+      "birthHourLabel": "Birth Hour (Optional)",
+      "birthHourUnknown": "Unknown",
+      "birthHourRange": "{{start}}:00 - {{end}}:00"
+    },
+    "scores": {
+      "bazi": "BaZi",
+      "wuge": "Wuge",
+      "phonetic": "Phonetic",
+      "meaning": "Meaning",
+      "overall": "Overall"
+    },
+    "source": {
+      "poetrySource": "Poetry Source",
+      "idiomSource": "Idiom Source"
+    }
+  },
+  "analyze": {
+    "title": "Name Analysis",
+    "subtitle": "Comprehensive analysis of names based on BaZi, Wuge, phonetics, and meaning",
+    "form": {
+      "title": "Enter Name",
+      "description": "Input your full name (2-4 Chinese characters) for analysis",
+      "fullNameLabel": "Full Name",
+      "fullNamePlaceholder": "e.g., Zhang San",
+      "fullNameHint": "2-4 Chinese characters required",
+      "birthDateHint": "Optional: for BaZi analysis",
+      "birthDateRequired": "Enter birth date first",
+      "birthHourUnknown": "Unknown",
+      "birthHourRange": "{{start}}:00 - {{end}}:00",
+      "analyzing": "Analyzing...",
+      "submit": "Start Analysis",
+      "errors": {
+        "nameTooShort": "Name must be at least 2 characters",
+        "nameTooLong": "Name must be at most 4 characters",
+        "nameNotChinese": "Please enter Chinese characters only"
+      }
+    },
+    "results": {
+      "enterName": "Enter a name to begin analysis",
+      "baziScore": "BaZi Score",
+      "wugeScore": "Wuge Score",
+      "phoneticScore": "Phonetic Score",
+      "meaningScore": "Meaning Score",
+      "favorableElements": "Favorable",
+      "threeGrids": "Heaven/Human/Earth",
+      "tonePattern": "Tones",
+      "basedOnMeaning": "Based on character meaning quality",
+      "characterDetails": "Character Details",
+      "fiveElement": "Five Element",
+      "radical": "Radical",
+      "strokes": "Strokes",
+      "kangxiStrokes": "Kangxi Strokes",
+      "meaning": "Meaning",
+      "baziAnalysis": "BaZi Analysis",
+      "baziDescription": "Astrological analysis based on birth date and time",
+      "fourPillars": "Four Pillars",
+      "yearPillar": "Year Pillar",
+      "monthPillar": "Month Pillar",
+      "dayPillar": "Day Pillar",
+      "hourPillar": "Hour Pillar",
+      "dayMaster": "Day Master",
+      "fiveElementsDistribution": "Five Elements Distribution",
+      "unfavorableElements": "Unfavorable"
+    },
+    "inputName": "Enter full name",
+    "overallScore": "Overall Score",
+    "breakdown": "Detailed Analysis",
+    "bazi": "BaZi Compatibility",
+    "wuge": "Wuge Numerology",
+    "phonetics": "Phonetic Harmony",
+    "meaning": "Character Meaning"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "description": "Your favorite names will appear here",
+    "empty": "No favorites yet",
+    "emptyHint": "Generate names and click the heart icon to save your favorites",
+    "count": "{{count}} names",
+    "export": "Export",
+    "clearAll": "Clear All",
+    "clearConfirm": "Are you sure you want to clear all favorites?"
+  },
+  "share": {
+    "title": "Share Name",
+    "description": "Share {{name}} with others",
+    "shareNative": "Share...",
+    "copyLink": "Copy Link",
+    "copyInfo": "Copy Name Info",
+    "downloadImage": "Download Image",
+    "showQRCode": "Show QR Code",
+    "qrCodeHint": "Scan to share on WeChat",
+    "copied": "Copied",
+    "generating": "Generating...",
+    "downloaded": "Downloaded"
+  },
+  "seo": {
+    "home": {
+      "title": "Chinese Name Generator - Intelligent Naming System Based on I Ching, Five Elements, and Poetry",
+      "description": "Professional Chinese naming platform combining BaZi analysis, Wuge numerology, phonetics, and classical poetry. Generate auspicious names for your baby. Free online tool with multiple style preferences."
+    },
+    "generate": {
+      "title": "Generate Chinese Names - Smart Naming Tool",
+      "description": "Intelligent naming tool based on BaZi Five Elements, Wuge numerology, and classical poetry. Enter surname and birth details to generate auspicious names."
+    },
+    "analyze": {
+      "title": "Name Analysis - BaZi Wuge Phonetics Analysis",
+      "description": "Professional Chinese name analysis tool evaluating names from multiple dimensions: BaZi compatibility, Wuge numerology, phonetic harmony, and character meaning."
+    },
+    "explore": {
+      "title": "Cultural Exploration - Poetry Idioms Character Naming Inspiration",
+      "description": "Explore Book of Songs, Chu Ci, Tang Poetry, Song Lyrics, idioms, and character etymology for rich naming inspiration and cultural depth."
+    },
+    "blog": {
+      "title": "Naming Blog - Chinese Naming Tips and Traditional Culture",
+      "description": "Sharing Chinese naming tips, BaZi Five Elements knowledge, surname culture, and poetry-inspired articles to help you choose auspicious names for your baby."
+    },
+    "faq": {
+      "title": "FAQ - Chinese Name Generator",
+      "description": "Answers to frequently asked questions about Chinese naming, BaZi analysis, and Wuge numerology."
+    },
+    "about": {
+      "title": "About Us - Chinese Name Generator",
+      "description": "Learn about our mission and services—a naming platform combining traditional culture with modern technology."
+    }
+  },
+  "characters": {
+    "title": "Character Details",
+    "breadcrumb": {
+      "home": "Home",
+      "characters": "Characters"
+    },
+    "info": {
+      "character": "Character",
+      "strokeCount": "Stroke Count",
+      "kangxiStrokes": "Kangxi Strokes",
+      "radical": "Radical",
+      "tone": "Tone",
+      "meaning": "Meaning",
+      "fiveElements": "Five Elements",
+      "frequency": "Frequency",
+      "hskLevel": "HSK Level"
+    },
+    "stats": {
+      "title": "Character Stats",
+      "fiveElementsInfo": "Five Elements Info",
+      "viewElement": "View {element} Element Names"
+    },
+    "suggestions": {
+      "title": "Name Suggestions with {char}",
+      "with": "with"
+    },
+    "related": {
+      "characters": "Related {element} Element Characters",
+      "surnames": "Surnames with {element} Element"
+    },
+    "actions": {
+      "generateNames": "Generate Names with {char}",
+      "analyze": "Analyze {char}"
+    },
+    "seo": {
+      "title": "{char} Chinese Character ({pinyin}) - {element} Element - Meaning & Naming Guide",
+      "description": "Detailed guide for Chinese character {char} ({pinyin}): {element} element, meaning \"{meaning}\". Includes stroke count, five elements, and naming suggestions."
+    }
+  }
+}

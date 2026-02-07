@@ -1,0 +1,504 @@
+{
+  "appName": "中文姓名生成器",
+  "surnames": "姓氏",
+  "elements": "五行",
+  "guide": "起名指南",
+  "common": {
+    "appName": "中文姓名生成器",
+    "tagline": "基于周易、五行、诗词的智能起名系统",
+    "generate": "生成名字",
+    "analyze": "分析名字",
+    "explore": "文化探索",
+    "surnames": "姓氏",
+    "elements": "五行",
+    "guide": "起名指南",
+    "surname": "姓氏",
+    "givenName": "名字",
+    "gender": "性别",
+    "male": "男",
+    "female": "女",
+    "neutral": "中性",
+    "birthDate": "出生日期",
+    "birthTime": "出生时辰",
+    "birthHour": "出生时辰",
+    "score": "评分",
+    "results": "结果",
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "required": "必填",
+    "optional": "可选",
+    "favorite": "收藏",
+    "favorited": "已收藏",
+    "share": "分享",
+    "export": "导出",
+    "clear": "清空",
+    "home": "首页",
+    "blog": "博客",
+    "faq": "常见问题",
+    "about": "关于",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "backToHome": "返回首页",
+    "readMore": "阅读更多",
+    "relatedArticles": "相关文章",
+    "categories": "分类",
+    "startNaming": "开始起名"
+  },
+  "home": {
+    "hero": {
+      "title": "传统文化遇见现代科技",
+      "subtitle": "融合八字、五格、音韵学的专业起名平台",
+      "cta": "开始起名",
+      "features": [
+        "57+ 优质数据源",
+        "71 亿字经典文献",
+        "专业周易算法",
+        "AI 智能解读"
+      ]
+    },
+    "features": {
+      "bazi": {
+        "title": "八字分析",
+        "description": "根据生辰八字，计算五行喜用神，推荐补运名字"
+      },
+      "wuge": {
+        "title": "五格剖象",
+        "description": "天格、人格、地格、外格、总格，81数理吉凶分析"
+      },
+      "poetry": {
+        "title": "诗词典故",
+        "description": "从诗经、楚辞、唐诗、宋词中提取文化底蕴深厚的名字"
+      },
+      "phonetics": {
+        "title": "音韵优化",
+        "description": "声调和谐分析，避免不良谐音，读音流畅优美"
+      }
+    },
+    "sectionTitle": "核心功能",
+    "stats": {
+      "dataSources": "数据源",
+      "classicTexts": "经典文字",
+      "openSource": "开源免费"
+    },
+    "cta": {
+      "title": "使用智能起名工具，为您的宝宝生成完美名字",
+      "subtitle": "基于传统文化与AI算法，为您推荐吉祥美好的名字"
+    }
+  },
+  "blog": {
+    "title": "起名知识博客",
+    "subtitle": "探索中文起名的艺术与科学，为您的宝宝寻找最完美的名字",
+    "featured": "精选文章",
+    "allPosts": "所有文章",
+    "categories": {
+      "namingTips": "起名技巧",
+      "fiveElements": "五行起名",
+      "surnameCulture": "姓氏文化",
+      "poetryNaming": "诗词起名",
+      "wuge": "五格剖象",
+      "phonetics": "音韵起名",
+      "characterSelection": "用字选择",
+      "baziNaming": "八字起名",
+      "namingTrends": "起名趋势"
+    },
+    "articles": {
+      "howToChoose": {
+        "title": "如何给宝宝起一个好名字？全面指南",
+        "description": "从八字分析、五行搭配、五格剖象到音韵美感，全面解析中文起名的要点和方法，帮助您为宝宝起一个吉祥美好的名字。",
+        "category": "起名技巧"
+      },
+      "fiveElements": {
+        "title": "五行起名：金木水火土的奥秘",
+        "description": "详解五行相生相克原理，教你如何根据宝宝八字选择合适的五行汉字，达到五行平衡。",
+        "category": "五行起名"
+      },
+      "surnameCulture": {
+        "title": "中国姓氏文化：百家姓背后的故事",
+        "description": "探索中国姓氏的起源、分布和历史文化意义，了解您的姓氏背后的故事。",
+        "category": "姓氏文化"
+      },
+      "poetryNames": {
+        "title": "诗词起名：从诗经楚辞中寻找灵感",
+        "description": "《诗经》《楚辞》《唐诗》《宋词》中蕴含着丰富的起名素材，教你如何从中汲取灵感。",
+        "category": "诗词起名"
+      },
+      "wugeExplained": {
+        "title": "五格剖象详解：天格人格地格外格总格",
+        "description": "深入解析五格剖象姓名学，包括五格的计算方法和81数理吉凶解释。",
+        "category": "五格剖象"
+      },
+      "boyVsGirl": {
+        "title": "男孩女孩起名有何不同？",
+        "description": "男宝宝和女宝宝起名各有侧重，从用字选择到寓意表达都有不同的讲究。",
+        "category": "起名技巧"
+      },
+      "avoidHomophones": {
+        "title": "起名避坑：如何避免不良谐音",
+        "description": "起名时一定要检查谐音，避免与贬义词或尴尬词汇谐音造成不必要的困扰。",
+        "category": "音韵起名"
+      },
+      "meaningfulChars": {
+        "title": "起名用字：这些寓意美好的汉字值得收藏",
+        "description": "精选100个寓意美好、适合起名的汉字，附详细解释和五行属性。",
+        "category": "用字选择"
+      },
+      "baziCalculator": {
+        "title": "八字起名计算器：如何分析宝宝的五行喜忌",
+        "description": "手把手教您计算宝宝八字，分析五行强弱，确定喜用神和忌神。",
+        "category": "八字起名"
+      },
+      "modernVsTraditional": {
+        "title": "传统起名vs现代起名：哪种更适合你的宝宝？",
+        "description": "对比分析传统起名方法和现代起名趋势，帮助您做出最佳选择。",
+        "category": "起名趋势"
+      }
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "关于生成器和分析功能的常见问题解答",
+    "questions": [
+      {
+        "question": "这是否是法律/官方命名服务？",
+        "answer": "不是。这是一个信息性工具，用于提供灵感和分析。请务必核实命名规则和当地要求。"
+      },
+      {
+        "question": "八字/五格分析有多准确？",
+        "answer": "我们提供透明的算法解读。传统体系因流派和从业者而异，因此请将结果作为参考。"
+      },
+      {
+        "question": "你们会存储我提交的名字吗？",
+        "answer": "默认情况下不会。如果您在部署中启用数据库持久化，这可能会改变——请查看您托管网站上的隐私页面。"
+      },
+      {
+        "question": "这个服务是免费的吗？",
+        "answer": "是的，本服务完全开源免费，您可以自由使用所有功能。"
+      },
+      {
+        "question": "如何选择适合宝宝的五行？",
+        "answer": "根据宝宝的出生年月日时计算八字，分析五行强弱。缺少或较弱的五行需要补足，过旺的五行需要平衡。"
+      },
+      {
+        "question": "生成的名字可以直接使用吗？",
+        "answer": "生成的名字仅供参考。建议您结合家族传统、个人喜好以及专业意见做出最终决定。"
+      },
+      {
+        "question": "支持多语言吗？",
+        "answer": "目前支持简体中文、英文、日文和韩文界面。"
+      }
+    ]
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "了解中文姓名生成器",
+    "whatWeDo": {
+      "title": "我们的服务",
+      "description": "提供名字生成、分析和精选文化参考资料，帮助您做出明智的命名决策。"
+    },
+    "whatWeDontDo": {
+      "title": "我们的限制",
+      "description": "我们不是专业人工咨询的替代品，也不保证现实世界的结果。"
+    },
+    "features": {
+      "title": "核心功能",
+      "bazi": "基于传统八字理论分析五行平衡",
+      "wuge": "五格剖象数理吉凶分析",
+      "poetry": "从经典诗词中提取有文化底蕴的名字",
+      "phonetics": "音韵和谐度检测，避免不良谐音",
+      "meanings": "详细的字义解释和五行属性"
+    },
+    "technology": {
+      "title": "技术特点",
+      "opensource": "完全开源，代码透明可审查",
+      "data": "57+数据源，71亿字经典文献",
+      "ai": "融合AI智能解读与传统算法"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "将中国传统文化与现代科技相结合，为用户提供专业、便捷的起名服务，让每一个名字都承载美好的寓意。"
+    }
+  },
+  "explore": {
+    "title": "文化探索",
+    "subtitle": "浏览诗词、成语和汉字信息，获取起名灵感",
+    "poetry": {
+      "title": "诗词",
+      "description": "精选适合起名的诗词名句"
+    },
+    "classics": {
+      "title": "经典",
+      "description": "诗经、楚辞等经典文献"
+    },
+    "idioms": {
+      "title": "成语",
+      "description": "寓意美好的成语典故"
+    },
+    "characters": {
+      "title": "汉字",
+      "description": "笔画、部首、五行、字义"
+    },
+    "etymology": {
+      "title": "字源",
+      "description": "探索汉字的起源和演变"
+    },
+    "ui": {
+      "search": "搜索",
+      "lookup": "查询",
+      "noResults": "暂无结果。",
+      "suitableChars": "适用字",
+      "allCategories": "全部分类",
+      "origin": "出处",
+      "example": "例句"
+    },
+    "poetryPage": {
+      "searchPlaceholder": "搜索标题 / 诗句 / 关键词",
+      "generateCta": "用诗词灵感生成名字"
+    },
+    "idiomsPage": {
+      "searchPlaceholder": "搜索成语 / 拼音 / 含义",
+      "generateCta": "用成语灵感生成名字"
+    },
+    "classicsPage": {
+      "subtitle": "从《诗经》《楚辞》中寻找起名灵感。"
+    },
+    "etymologyPage": {
+      "placeholder": "输入一个汉字（如：明）",
+      "emptyState": "请输入一个汉字开始查询。",
+      "notFound": "当前数据集中未找到该汉字。",
+      "meaning": "字义",
+      "fiveElement": "五行",
+      "radical": "部首",
+      "strokes": "笔画"
+    }
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "subtitle": "我们如何处理您的信息",
+    "dataProcessing": {
+      "title": "数据处理",
+      "description": "应用程序处理输入（姓氏、名字、可选的出生日期/时间）以计算结果。默认情况下，请求不会被持久化存储。"
+    },
+    "logs": {
+      "title": "日志记录",
+      "description": "您的托管提供商可能会保留标准访问日志用于安全和运营目的。"
+    },
+    "cookies": {
+      "title": "Cookie和类似技术",
+      "description": "我们使用必要的Cookie来确保网站正常运行。我们不会使用Cookie来追踪您的个人身份信息。"
+    },
+    "thirdParty": {
+      "title": "第三方服务",
+      "description": "我们的网站可能包含指向第三方网站的链接。我们不对这些网站的隐私做法负责。"
+    },
+    "changes": {
+      "title": "政策变更",
+      "description": "我们可能会不时更新本隐私政策。重大变更时，我们会通过网站通知您。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "如有任何隐私相关问题，请通过GitHub Issues联系我们。"
+    }
+  },
+  "terms": {
+    "title": "服务条款",
+    "subtitle": "使用本服务的条款和条件",
+    "noGuarantees": {
+      "title": "无保证声明",
+      "description": "结果仅供参考和灵感启发之用。您对基于应用程序做出的任何决定承担全部责任。"
+    },
+    "acceptableUse": {
+      "title": "可接受的使用",
+      "description": "请勿尝试使服务超载或将其用于非法目的。"
+    },
+    "intellectualProperty": {
+      "title": "知识产权",
+      "description": "本网站的所有内容，包括文字、图片、代码等，均受知识产权法保护。未经授权，不得复制、修改或分发。"
+    },
+    "limitationOfLiability": {
+      "title": "责任限制",
+      "description": "在任何情况下，我们都不对因使用或无法使用本服务而导致的任何直接、间接、附带、特殊或后果性损害承担责任。"
+    },
+    "governingLaw": {
+      "title": "管辖法律",
+      "description": "本条款受相关法律法规管辖。如有争议，应通过友好协商解决。"
+    },
+    "changes": {
+      "title": "条款变更",
+      "description": "我们保留随时修改这些条款的权利。继续使用本服务即表示您接受经修改的条款。"
+    }
+  },
+  "generate": {
+    "title": "生成中文名字",
+    "subtitle": "基于八字、五格、音韵等传统文化生成吉祥名字",
+    "options": "姓名参数",
+    "description": "填写基本信息开始生成",
+    "required": "必填",
+    "optional": "可选",
+    "preferences": "偏好设置",
+    "style": "风格",
+    "styles": {
+      "classic": "经典",
+      "modern": "现代",
+      "poetic": "诗意",
+      "elegant": "优雅"
+    },
+    "source": "灵感来源",
+    "sources": {
+      "poetry": "诗词",
+      "classics": "经典",
+      "idioms": "成语",
+      "any": "不限"
+    },
+    "characterCount": "名字字数",
+    "characterCounts": {
+      "one": "1 字",
+      "two": "2 字"
+    },
+    "maxResults": "生成数量",
+    "preferredElements": "偏好五行",
+    "avoidElements": "避免五行",
+    "startGeneration": "开始生成",
+    "generating": "生成中...",
+    "results": "生成结果",
+    "resultsCount": "共生成 {{count}} 个名字",
+    "noResults": "填写左侧信息后点击\\\"开始生成\\\"。",
+    "fiveElements": {
+      "metal": "金",
+      "wood": "木",
+      "water": "水",
+      "fire": "火",
+      "earth": "土"
+    },
+    "form": {
+      "surnameLabel": "姓氏",
+      "surnamePlaceholder": "例：李",
+      "genderLabel": "性别",
+      "birthDateLabel": "出生日期（可选）",
+      "birthDateHint": "用于八字分析",
+      "birthHourLabel": "出生时辰（可选）",
+      "birthHourUnknown": "未知",
+      "birthHourRange": "{{start}}:00 - {{end}}:00"
+    },
+    "scores": {
+      "bazi": "八字",
+      "wuge": "五格",
+      "phonetic": "音韵",
+      "meaning": "字义",
+      "overall": "综合"
+    },
+    "source": {
+      "poetrySource": "诗词出处",
+      "idiomSource": "成语出处"
+    }
+  },
+  "analyze": {
+    "title": "姓名分析",
+    "subtitle": "综合分析名字的八字、五格、音韵、字义等维度",
+    "form": {
+      "title": "输入姓名",
+      "description": "输入完整姓名（2-4个汉字）进行分析",
+      "fullNameLabel": "完整姓名",
+      "fullNamePlaceholder": "例：李明华",
+      "fullNameHint": "必填，2-4个汉字",
+      "birthDateHint": "可选：用于八字分析",
+      "birthDateRequired": "请先输入出生日期",
+      "birthHourUnknown": "未知",
+      "birthHourRange": "{{start}}:00 - {{end}}:00",
+      "analyzing": "分析中...",
+      "submit": "开始分析",
+      "errors": {
+        "nameTooShort": "姓名至少需要2个汉字",
+        "nameTooLong": "姓名最多4个汉字",
+        "nameNotChinese": "请输入中文汉字"
+      }
+    },
+    "results": {
+      "enterName": "请输入姓名开始分析",
+      "baziScore": "八字分析",
+      "wugeScore": "五格配置",
+      "phoneticScore": "音韵和谐",
+      "meaningScore": "字义品质",
+      "favorableElements": "喜用",
+      "threeGrids": "天/人/地",
+      "tonePattern": "声调",
+      "basedOnMeaning": "基于字义正向/负向与常用度",
+      "characterDetails": "字义详解",
+      "fiveElement": "五行",
+      "radical": "部首",
+      "strokes": "笔画",
+      "kangxiStrokes": "康熙笔画",
+      "meaning": "字义",
+      "baziAnalysis": "八字分析",
+      "baziDescription": "基于出生日期的命理分析",
+      "fourPillars": "四柱八字",
+      "yearPillar": "年柱",
+      "monthPillar": "月柱",
+      "dayPillar": "日柱",
+      "hourPillar": "时柱",
+      "dayMaster": "日主",
+      "fiveElementsDistribution": "五行分布",
+      "unfavorableElements": "忌用"
+    },
+    "inputName": "请输入完整姓名",
+    "overallScore": "综合评分",
+    "breakdown": "详细分析",
+    "bazi": "八字契合度",
+    "wuge": "五格数理",
+    "phonetics": "音韵和谐",
+    "meaning": "字义品质"
+  },
+  "favorites": {
+    "title": "收藏夹",
+    "description": "您收藏的名字将显示在这里",
+    "empty": "暂无收藏",
+    "emptyHint": "生成名字并点击心形图标保存您的收藏",
+    "count": "{{count}} 个名字",
+    "export": "导出",
+    "clearAll": "清空全部",
+    "clearConfirm": "确定要清空所有收藏吗？"
+  },
+  "share": {
+    "title": "分享名字",
+    "description": "与他人分享 {{name}}",
+    "shareNative": "分享...",
+    "copyLink": "复制链接",
+    "copyInfo": "复制名字信息",
+    "downloadImage": "下载图片",
+    "showQRCode": "显示二维码",
+    "qrCodeHint": "扫描即可在微信分享",
+    "copied": "已复制",
+    "generating": "生成中...",
+    "downloaded": "已下载"
+  },
+  "seo": {
+    "home": {
+      "title": "中文姓名生成器 - 基于周易五行诗词的智能起名系统",
+      "description": "专业中文起名平台，融合八字分析、五格剖象、音韵学和经典诗词。为宝宝起名，提供吉祥美好的名字建议。支持多种风格偏好，免费在线使用。"
+    },
+    "generate": {
+      "title": "生成中文名字 - 智能起名工具",
+      "description": "基于八字五行、五格剖象、诗词典故的智能起名工具。输入姓氏和生辰，生成吉祥好名字。"
+    },
+    "analyze": {
+      "title": "姓名分析 - 八字五格音韵分析",
+      "description": "专业的中文名字分析工具，从八字契合度、五格数理、音韵和谐、字义品质等多维度评估名字。"
+    },
+    "explore": {
+      "title": "文化探索 - 诗词成语汉字起名灵感",
+      "description": "探索诗经楚辞唐诗宋词、成语典故、汉字字源，获取丰富的起名灵感和文化内涵。"
+    },
+    "blog": {
+      "title": "起名知识博客 - 中文起名技巧与传统文化",
+      "description": "分享中文起名技巧、八字五行知识、姓氏文化、诗词典故等起名相关文章，助您为宝宝起一个吉祥美好的名字。"
+    },
+    "faq": {
+      "title": "常见问题 - 中文姓名生成器",
+      "description": "关于中文起名、八字分析、五格剖象等常见问题的解答。"
+    },
+    "about": {
+      "title": "关于我们 - 中文姓名生成器",
+      "description": "了解我们的使命和服务，将传统文化与现代科技相结合的起名平台。"
+    }
+  }
+}

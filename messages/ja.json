@@ -1,0 +1,501 @@
+{
+  "appName": "中国語名前ジェネレーター",
+  "surnames": "姓氏",
+  "elements": "五行",
+  "guide": "命名ガイド",
+  "common": {
+    "appName": "中国語名前ジェネレーター",
+    "tagline": "易経、五行、古典詩詞に基づく知的な命名システム",
+    "generate": "名前を生成",
+    "analyze": "名前を分析",
+    "explore": "文化を探求",
+    "surname": "姓",
+    "givenName": "名",
+    "gender": "性別",
+    "male": "男性",
+    "female": "女性",
+    "neutral": "中性",
+    "birthDate": "生年月日",
+    "birthTime": "出生時刻",
+    "birthHour": "出生時刻",
+    "score": "スコア",
+    "results": "結果",
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "required": "必須",
+    "optional": "オプション",
+    "favorite": "お気に入り",
+    "favorited": "お気に入りに追加済み",
+    "share": "共有",
+    "export": "エクスポート",
+    "clear": "クリア",
+    "home": "ホーム",
+    "blog": "ブログ",
+    "faq": "よくある質問",
+    "about": "について",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "backToHome": "ホームに戻る",
+    "readMore": "続きを読む",
+    "relatedArticles": "関連記事",
+    "categories": "カテゴリー",
+    "startNaming": "命名を開始"
+  },
+  "home": {
+    "hero": {
+      "title": "伝統文化と最新テクノロジーの融合",
+      "subtitle": "八字、五格、音韻分析に基づくプロの中国語命名プラットフォーム",
+      "cta": "命名を開始",
+      "features": [
+        "57以上の高品質データソース",
+        "71億文字の古典文献",
+        "プロの易経アルゴリズム",
+        "AI解説"
+      ]
+    },
+    "features": {
+      "bazi": {
+        "title": "八字分析",
+        "description": "生年月日時に基づいて四柱推命と五行バランスを計算"
+      },
+      "wuge": {
+        "title": "五格数理",
+        "description": "五格分析と81数理の吉凶判断"
+      },
+      "poetry": {
+        "title": "古典詩詞",
+        "description": "詩経、楚辞、唐詩、宋詞から文化的な深みのある名前を提案"
+      },
+      "phonetics": {
+        "title": "音韻調和",
+        "description": "声調パターン分析と不適切な諺（同音語）検出で滑らかな発音を実現"
+      }
+    },
+    "sectionTitle": "コア機能",
+    "stats": {
+      "dataSources": "データソース",
+      "classicTexts": "古典文字",
+      "openSource": "オープンソース"
+    },
+    "cta": {
+      "title": "スマート命名ツールで、赤ちゃんに完璧な名前を",
+      "subtitle": "伝統文化とAIアルゴリズムを組み合わせた縁起の良い名前の提案"
+    }
+  },
+  "blog": {
+    "title": "命名ブログ",
+    "subtitle": "中国語命名の芸術と科学を探求し、赤ちゃんに完璧な名前を",
+    "featured": "注目記事",
+    "allPosts": "すべての記事",
+    "categories": {
+      "namingTips": "命名のコツ",
+      "fiveElements": "五行",
+      "surnameCulture": "姓氏文化",
+      "poetryNaming": "詩詞命名",
+      "wuge": "五格数理",
+      "phonetics": "音韻",
+      "characterSelection": "文字選択",
+      "baziNaming": "八字命名",
+      "namingTrends": "命名トレンド"
+    },
+    "articles": {
+      "howToChoose": {
+        "title": "良い中国語の名前の選び方？完全ガイド",
+        "description": "八字分析、五行、五格数理、音韻調和を網羅した中国語命名の包括的なガイド。",
+        "category": "命名のコツ"
+      },
+      "fiveElements": {
+        "title": "五行命名：金木水火土の秘密",
+        "description": "五行の関係を理解し、赤ちゃんの八字に基づいて調和の取れた文字を選びましょう。",
+        "category": "五行"
+      },
+      "surnameCulture": {
+        "title": "中国姓氏文化：百家姓の背後にある物語",
+        "description": "中国姓氏の起源、分布、文化的意義を探求。",
+        "category": "姓氏文化"
+      },
+      "poetryNames": {
+        "title": "詩詞にインスパイアされた名前：古典中国語詩歌からインスピレーションを",
+        "description": "詩経、楚辞、唐詩、宋詞から命名のインスピレーションを発見しましょう。",
+        "category": "詩詞命名"
+      },
+      "wugeExplained": {
+        "title": "五格数理の理解：天格、人格、地格、外格、総格",
+        "description": "計算方法と81数理の意味を含む五格数理の詳細解説。",
+        "category": "五格数理"
+      },
+      "boyVsGirl": {
+        "title": "中国文化における男の子と女の子の命名の違い",
+        "description": "文字選択から意味の表現まで、男の子と女の子の命名における異なる考慮事項。",
+        "category": "命名のコツ"
+      },
+      "avoidHomophones": {
+        "title": "命名の落とし穴：否定的な諺（同音語）を避ける方法",
+        "description": "不快または否定的な連想を避けるため、命名時には常に諺（同音語）をチェックしてください。",
+        "category": "音韻"
+      },
+      "meaningfulChars": {
+        "title": "命名用文字：縁起の良い意味を持つ美しい文字",
+        "description": "命名に適した縁起の良い意味を持つ100の美しい文字の厳選リスト。",
+        "category": "文字選択"
+      },
+      "baziCalculator": {
+        "title": "八字計算機：赤ちゃんの五行を分析する方法",
+        "description": "八字を計算し、有利な要素と不利な要素を判断するための段階的なガイド。",
+        "category": "八字命名"
+      },
+      "modernVsTraditional": {
+        "title": "伝統的命名 vs 現代的命名：どちらが赤ちゃんに適しているか？",
+        "description": "伝統的な命名方法と現代的なトレンドを比較し、最適な選択を支援します。",
+        "category": "命名トレンド"
+      }
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "ジェネレーターと分析機能に関する一般的な質問",
+    "questions": [
+      {
+        "question": "これは法的/公式な命名サービスですか？",
+        "answer": "いいえ。これはインスピレーションと分析のための情報ツールです。必ず命名規則と地域の要件を確認してください。"
+      },
+      {
+        "question": "八字/五格分析の正確性はどの程度ですか？",
+        "answer": "透明性のあるアルゴリズム解釈を提供しています。伝統的なシステムは流派や専門家によって異なるため、結果を参考として扱ってください。"
+      },
+      {
+        "question": "提出した名前を保存していますか？",
+        "answer": "デフォルトではいいえ。デプロイでデータベース永続化を有効にすると、変更される可能性があります——ホストされているサイトのプライバシーページを参照してください。"
+      },
+      {
+        "question": "このサービスは無料ですか？",
+        "answer": "はい、このサービスは完全にオープンソースで無料です。すべての機能を自由に使用できます。"
+      },
+      {
+        "question": "赤ちゃんに適した五行を選ぶにはどうすればよいですか？",
+        "answer": "赤ちゃんの生年月日時に基づいて八字を計算し、各要素の強さを分析します。不足している、または弱い要素は強化する必要があり、過剰な要素はバランスを取る必要があります。"
+      },
+      {
+        "question": "生成された名前を直接使用できますか？",
+        "answer": "生成された名前は参考用です。最終決定を行う際は、家族の伝統、個人的な好み、専門的なアドバイスを組み合わせることをお勧めします。"
+      },
+      {
+        "question": "複数の言語をサポートしていますか？",
+        "answer": "現在、簡体字中国語、英語、日本語、韓国語のインターフェースをサポートしています。"
+      }
+    ]
+  },
+  "about": {
+    "title": "私たちについて",
+    "subtitle": "中国語名前ジェネレーターについて学ぶ",
+    "whatWeDo": {
+      "title": "私たちがすること",
+      "description": "名前の生成、分析、厳選された文化的参考文献を提供し、意思決定をサポートします。"
+    },
+    "whatWeDontDo": {
+      "title": "私たちがしないこと",
+      "description": "私たちは専門的な人的相談の代替ではなく、現実世界の結果を保証しません。"
+    },
+    "features": {
+      "title": "コア機能",
+      "bazi": "伝統的な八字理論に基づく五行バランス分析",
+      "wuge": "五格数理吉凶分析",
+      "poetry": "古典詩詞から文化的に豊かな名前を抽出",
+      "phonetics": "否定的な諺（同音語）を避けるための音韻調和検出",
+      "meanings": "詳細な文字の意味と五行属性"
+    },
+    "technology": {
+      "title": "技術のハイライト",
+      "opensource": "完全にオープンソースで、透明性のある監査可能なコード",
+      "data": "57以上のデータソース、71億文字の古典文献",
+      "ai": "AI解釈と伝統的なアルゴリズムの融合"
+    },
+    "mission": {
+      "title": "私たちの使命",
+      "description": "中国の伝統文化と最新テクノロジーを組み合わせ、プロフェッショナルで便利な命名サービスを提供し、すべての名前に美しい意味を持たせます。"
+    }
+  },
+  "explore": {
+    "title": "文化的探求",
+    "subtitle": "詩詞、成語、文字情報を閲覧し、命名のインスピレーションを得る",
+    "poetry": {
+      "title": "詩詞",
+      "description": "命名に適した選ばれた詩句"
+    },
+    "classics": {
+      "title": "古典",
+      "description": "詩経、楚辞、その他の古典テキスト"
+    },
+    "idioms": {
+      "title": "成語",
+      "description": "命名のアイデアのためのポジティブな成語"
+    },
+    "characters": {
+      "title": "文字",
+      "description": "筆画、部首、五行、意味"
+    },
+    "etymology": {
+      "title": "語源",
+      "description": "文字の起源と進化を探求"
+    },
+    "ui": {
+      "search": "検索",
+      "lookup": "照会",
+      "noResults": "結果がありません。",
+      "suitableChars": "推奨漢字",
+      "allCategories": "すべてのカテゴリ",
+      "origin": "出典",
+      "example": "例文"
+    },
+    "poetryPage": {
+      "searchPlaceholder": "タイトル / 句 / キーワードを検索",
+      "generateCta": "詩から着想した名前を生成"
+    },
+    "idiomsPage": {
+      "searchPlaceholder": "成語 / ピンイン / 意味を検索",
+      "generateCta": "成語から着想した名前を生成"
+    },
+    "classicsPage": {
+      "subtitle": "『詩経』『楚辞』から名付けのヒントを探します。"
+    },
+    "etymologyPage": {
+      "placeholder": "漢字を1文字入力（例：明）",
+      "emptyState": "漢字を入力してください。",
+      "notFound": "現在のデータセットに見つかりません。",
+      "meaning": "意味",
+      "fiveElement": "五行",
+      "radical": "部首",
+      "strokes": "画数"
+    }
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "subtitle": "情報の取り扱いについて",
+    "dataProcessing": {
+      "title": "データ処理",
+      "description": "アプリは入力（姓、名、オプションの生年月日/時刻）を処理して結果を計算します。デフォルトでは、リクエストは永続化されません。"
+    },
+    "logs": {
+      "title": "ログ記録",
+      "description": "ホスティングプロバイダーは、セキュリティと運用目的で標準的なアクセスログを保持する場合があります。"
+    },
+    "cookies": {
+      "title": "Cookie と類似のテクノロジー",
+      "description": "ウェブサイトが正常に機能するために必要な Cookie を使用します。個人の身元を追跡するために Cookie を使用することはありません。"
+    },
+    "thirdParty": {
+      "title": "第三者サービス",
+      "description": "ウェブサイトには第三者のウェブサイトへのリンクが含まれている場合があります。これらのサイトのプライバシー慣行については責任を負いません。"
+    },
+    "changes": {
+      "title": "ポリシーの変更",
+      "description": "このプライバシーポリシーを随時更新する場合があります。重大な変更があった場合は、ウェブサイトを通じて通知いたします。"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "プライバシーに関するご質問については、GitHub Issues を通じてお問い合わせください。"
+    }
+  },
+  "terms": {
+    "title": "利用規約",
+    "subtitle": "このサービスを使用するための条項と条件",
+    "noGuarantees": {
+      "title": "保証なし",
+      "description": "結果は参考およびインスピレーションのみを目的として提供されています。アプリに基づいて行われる決定について、ユーザーが全責任を負います。"
+    },
+    "acceptableUse": {
+      "title": "受け入れ可能な使用",
+      "description": "サービスに過負荷をかけたり、違法な目的で使用したりしないでください。"
+    },
+    "intellectualProperty": {
+      "title": "知的財産",
+      "description": "このウェブサイトのすべてのコンテンツ（テキスト、画像、コードを含む）は、知的財産法によって保護されています。許可なしにコピー、変更、配布することは禁止されています。"
+    },
+    "limitationOfLiability": {
+      "title": "責任の制限",
+      "description": "いかなる場合も、サービスの使用または使用不能により生じる直接的、間接的、付随的、特別、または結果的な損害について責任を負いません。"
+    },
+    "governingLaw": {
+      "title": "準拠法",
+      "description": "これらの条項は適用法と規制に準拠します。紛争は友好的な協議を通じて解決する必要があります。"
+    },
+    "changes": {
+      "title": "条項の変更",
+      "description": "これらの条項をいつでも変更する権利を留保します。サービスの継続的な使用は、変更された条項の受け入れを構成します。"
+    }
+  },
+  "generate": {
+    "title": "中国語の名前を生成",
+    "subtitle": "伝統文化、八字、音韻に基づいて縁起の良い名前を生成",
+    "options": "名前パラメータ",
+    "description": "基本情報を入力して生成を開始",
+    "required": "必須",
+    "optional": "オプション",
+    "preferences": "設定",
+    "style": "スタイル",
+    "styles": {
+      "classic": "古典",
+      "modern": "現代",
+      "poetic": "詩的",
+      "elegant": "優雅"
+    },
+    "source": "インスピレーションソース",
+    "sources": {
+      "poetry": "詩詞",
+      "classics": "古典",
+      "idioms": "成語",
+      "any": "指定なし"
+    },
+    "characterCount": "名前の長さ",
+    "characterCounts": {
+      "one": "1文字",
+      "two": "2文字"
+    },
+    "maxResults": "結果数",
+    "preferredElements": "好みの五行",
+    "avoidElements": "避ける五行",
+    "startGeneration": "生成開始",
+    "generating": "生成中...",
+    "results": "結果",
+    "resultsCount": "{{count}}個の名前を生成",
+    "noResults": "左側の情報を入力して「生成開始」をクリックしてください。",
+    "fiveElements": {
+      "metal": "金",
+      "wood": "木",
+      "water": "水",
+      "fire": "火",
+      "earth": "土"
+    },
+    "form": {
+      "surnameLabel": "姓",
+      "surnamePlaceholder": "例：李",
+      "genderLabel": "性別",
+      "birthDateLabel": "生年月日（オプション）",
+      "birthDateHint": "八字分析に使用",
+      "birthHourLabel": "出生時刻（オプション）",
+      "birthHourUnknown": "不明",
+      "birthHourRange": "{{start}}:00 - {{end}}:00"
+    },
+    "scores": {
+      "bazi": "八字",
+      "wuge": "五格",
+      "phonetic": "音韻",
+      "meaning": "意味",
+      "overall": "総合"
+    },
+    "source": {
+      "poetrySource": "詩詞の出典",
+      "idiomSource": "成語の出典"
+    }
+  },
+  "analyze": {
+    "title": "名前分析",
+    "subtitle": "八字、五格、音韻、意味に基づく包括的な名前分析",
+    "form": {
+      "title": "名前を入力",
+      "description": "フルネーム（2-4文字）を入力して分析",
+      "fullNameLabel": "フルネーム",
+      "fullNamePlaceholder": "例：田中太郎",
+      "fullNameHint": "必須、2-4文字の漢字",
+      "birthDateHint": "オプション：八字分析に使用",
+      "birthDateRequired": "まず生年月日を入力してください",
+      "birthHourUnknown": "不明",
+      "birthHourRange": "{{start}}:00 - {{end}}:00",
+      "analyzing": "分析中...",
+      "submit": "分析開始",
+      "errors": {
+        "nameTooShort": "名前は2文字以上必要です",
+        "nameTooLong": "名前は4文字以内にしてください",
+        "nameNotChinese": "中国語の漢字を入力してください"
+      }
+    },
+    "results": {
+      "enterName": "分析を開始するには名前を入力してください",
+      "baziScore": "八字スコア",
+      "wugeScore": "五格スコア",
+      "phoneticScore": "音韻スコア",
+      "meaningScore": "意味スコア",
+      "favorableElements": "喜用",
+      "threeGrids": "天/人/地",
+      "tonePattern": "声調",
+      "basedOnMeaning": "文字の意味の品質に基づく",
+      "characterDetails": "文字の詳細",
+      "fiveElement": "五行",
+      "radical": "部首",
+      "strokes": "画数",
+      "kangxiStrokes": "康熙画数",
+      "meaning": "意味",
+      "baziAnalysis": "八字分析",
+      "baziDescription": "生年月日に基づく占星術的分析",
+      "fourPillars": "四柱八字",
+      "yearPillar": "年柱",
+      "monthPillar": "月柱",
+      "dayPillar": "日柱",
+      "hourPillar": "時柱",
+      "dayMaster": "日主",
+      "fiveElementsDistribution": "五行分布",
+      "unfavorableElements": "忌用"
+    },
+    "inputName": "フルネームを入力",
+    "overallScore": "総合スコア",
+    "breakdown": "詳細分析",
+    "bazi": "八字適合度",
+    "wuge": "五格数理",
+    "phonetics": "音韻調和",
+    "meaning": "文字の意味"
+  },
+  "favorites": {
+    "title": "お気に入り",
+    "description": "お気に入りの名前がここに表示されます",
+    "empty": "お気に入りはまだありません",
+    "emptyHint": "名前を生成してハートアイコンをクリックしてお気に入りに保存",
+    "count": "{{count}}個の名前",
+    "export": "エクスポート",
+    "clearAll": "すべてクリア",
+    "clearConfirm": "すべてのお気に入りをクリアしますか？"
+  },
+  "share": {
+    "title": "名前を共有",
+    "description": "{{name}}を他の人と共有",
+    "shareNative": "共有...",
+    "copyLink": "リンクをコピー",
+    "copyInfo": "名前情報をコピー",
+    "downloadImage": "画像をダウンロード",
+    "showQRCode": "QRコードを表示",
+    "qrCodeHint": "スキャンしてWeChatで共有",
+    "copied": "コピーしました",
+    "generating": "生成中...",
+    "downloaded": "ダウンロードしました"
+  },
+  "seo": {
+    "home": {
+      "title": "中国語名前ジェネレーター - 易経、五行、詩詞に基づく知的な命名システム",
+      "description": "八字分析、五格数理、音韻学、古典詩詞を組み合わせたプロの中国語命名プラットフォーム。赤ちゃんに縁起の良い名前を生成。複数のスタイル設定に対応した無料オンラインツール。"
+    },
+    "generate": {
+      "title": "中国語の名前を生成 - スマート命名ツール",
+      "description": "八字五行、五格数理、古典詩詞に基づくスマート命名ツール。姓と生年月日を入力して、縁起の良い名前を生成します。"
+    },
+    "analyze": {
+      "title": "名前分析 - 八字五格音韻分析",
+      "description": "八字適合度、五格数理、音韻調和、文字の意味など、複数の次元から名前を評価するプロの中国語名前分析ツール。"
+    },
+    "explore": {
+      "title": "文化的探求 - 詩詞成語文字命名インスピレーション",
+      "description": "詩経、楚辞、唐詩、宋詞、成語、文字語源を探求し、豊かな命名インスピレーションと文化的深みを得ます。"
+    },
+    "blog": {
+      "title": "命名ブログ - 中国語命名のコツと伝統文化",
+      "description": "中国語命名のコツ、八字五行の知識、姓氏文化、詩詞に基づく記事を共有し、赤ちゃんに縁起の良い名前を選ぶお手伝いをします。"
+    },
+    "faq": {
+      "title": "よくある質問 - 中国語名前ジェネレーター",
+      "description": "中国語命名、八字分析、五格数理に関するよくある質問への回答。"
+    },
+    "about": {
+      "title": "私たちについて - 中国語名前ジェネレーター",
+      "description": "私たちの使命とサービスについて学ぶ——伝統文化と最新テクノロジーを組み合わせた命名プラットフォーム。"
+    }
+  }
+}
