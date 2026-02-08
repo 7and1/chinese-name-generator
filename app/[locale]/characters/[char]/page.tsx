@@ -18,8 +18,9 @@ interface CharacterPageProps {
   }>;
 }
 
+// Only pre-generate top 50 characters per locale for SEO
 export async function generateStaticParams() {
-  const topChars = SAMPLE_CHARACTERS.slice(0, 1000);
+  const topChars = SAMPLE_CHARACTERS.slice(0, 50);
 
   return locales.flatMap((locale) =>
     topChars.map((char) => ({
@@ -28,6 +29,9 @@ export async function generateStaticParams() {
     })),
   );
 }
+
+// Enable dynamic rendering for non-pregenerated pages
+export const dynamicParams = true;
 
 export async function generateMetadata({ params }: CharacterPageProps) {
   const { locale, char } = await params;

@@ -1,9 +1,8 @@
 {
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "installCommand": "pnpm install",
   "framework": "nextjs",
-  "regions": ["sin1", "hnd1", "sfo1"],
   "headers": [
     {
       "source": "/(.*)",

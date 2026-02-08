@@ -23,13 +23,16 @@ type Props = {
   params: Promise<{ locale: string; surname: string }>;
 };
 
-// Generate static params for all surnames
+// Only pre-generate top 20 surnames for SEO
 export async function generateStaticParams() {
-  const surnames = CHINESE_SURNAMES.slice(0, 100);
+  const surnames = CHINESE_SURNAMES.slice(0, 20);
   return surnames.map((surname) => ({
     surname: surname.surname,
   }));
 }
+
+// Enable dynamic rendering for non-pregenerated pages
+export const dynamicParams = true;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, surname } = await params;
